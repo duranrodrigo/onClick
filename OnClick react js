@@ -1,0 +1,8 @@
+<button onClick={this.handleClick}>
+class Foo extends Component 
+{ handleClick() 
+{ console.log('Clicado'); } 
+render() { 
+return 
+<button onClick={() => 
+this.handleClick()}>Clique em mim!</button>; } }
